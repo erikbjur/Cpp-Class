@@ -5,7 +5,7 @@ int main() {
     int numbers [5];
 
     // We can access the first number in the list like this:
-    int number_from_list = numbers[3];
+    int number_from_list = numbers[0];
 
     // Note that the array of numbers isn't initialized to zero.
     // It's full of left over garbage
