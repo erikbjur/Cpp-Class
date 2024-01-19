@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "First Program - Build For Mac",
+			"command": "clang++",
+			"args": [
+				"-g",
+				"${workspaceFolder}/first_program.cpp",
+				"-o",
+				"${workspaceFolder}/first_program.exe"
+			],
+			"group": "build",
+		},
+		{
+			"type": "cppbuild",
+			"label": "First Program - Build For Windows",
+			"command": "clang++",
+			"args": [
+				"-g",
+				"${workspaceFolder}\\first_program.cpp",
+				"-o",
+				"${workspaceFolder}\\first_program.exe"
+			],
+			"group": "build",
+		}
+	]
+}

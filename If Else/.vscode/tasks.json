@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "If Else - Build For Mac",
+			"command": "clang++",
+			"args": [
+				"-g",
+				"${workspaceFolder}/IfElse.cpp",
+				"-o",
+				"${workspaceFolder}/IfElse.exe"
+			],
+			"group": "build",
+		},
+		{
+			"type": "cppbuild",
+			"label": "If Else - Build For Windows",
+			"command": "clang++",
+			"args": [
+				"-g",
+				"${workspaceFolder}\\IfElse.cpp",
+				"-o",
+				"${workspaceFolder}\\IfElse.exe"
+			],
+			"group": "build",
+		}
+	]
+}

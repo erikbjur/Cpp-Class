@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Input From User - Build For Mac",
+			"command": "clang++",
+			"args": [
+				"-g",
+				"${workspaceFolder}/Input_from_user.cpp",
+				"-o",
+				"${workspaceFolder}/Input_from_user.exe"
+			],
+			"group": "build",
+		},
+		{
+			"type": "cppbuild",
+			"label": "Input From User - Build For Windows",
+			"command": "clang++",
+			"args": [
+				"-g",
+				"${workspaceFolder}\\Input_from_user.cpp",
+				"-o",
+				"${workspaceFolder}\\Input_from_user.exe"
+			],
+			"group": "build",
+		}
+	]
+}
