@@ -14,7 +14,7 @@
 			"group": "build",
 		},
 		{
-			"type": "cppbuild",
+			"type": "process",
 			"label": "Input From User - Build For Windows",
 			"command": "clang++",
 			"args": [
