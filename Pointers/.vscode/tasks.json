@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Pointers - Build For Mac",
+			"command": "clang++",
+			"args": [
+				"-g",
+				"${workspaceFolder}/pointers.cpp",
+				"-o",
+				"${workspaceFolder}/pointers.exe"
+			],
+			"group": "build",
+		},
+		{
+			"type": "process",
+			"label": "Pointers - Build For Windows",
+			"command": "clang++",
+			"args": [
+				"-g",
+				"${workspaceFolder}\\pointers.cpp",
+				"-o",
+				"${workspaceFolder}\\pointers.exe"
+			],
+			"group": "build",
+		}
+	]
+}
