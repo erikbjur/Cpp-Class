@@ -26,6 +26,9 @@
 		},
 		{
 			"path": "Functions"
+		},
+		{
+			"path": "Header Files"
 		}
 	],
 	"settings": {
