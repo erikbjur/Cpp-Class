@@ -54,6 +54,5 @@ int main() {
     std::cout << "a = " << a << std::endl;
     std::cout << "*ptr_C = " << *ptr_C << std::endl;
 
-
     return 0;
 }
