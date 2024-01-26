@@ -29,6 +29,9 @@
 		},
 		{
 			"path": "Header Files"
+		},
+		{
+			"path": "Classes"
 		}
 	],
 	"settings": {

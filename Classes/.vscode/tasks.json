@@ -1,0 +1,63 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Build Example 1",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-std=c++20", // This flag tells the compiler we're using c++ 20
+				//"-g",
+				"${workspaceFolder}/Example_1.cpp",
+				"-o",
+				"${workspaceFolder}/myApp.exe"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "Build Example 2",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-std=c++20", // This flag tells the compiler we're using c++ 20
+				//"-g",
+				"${workspaceFolder}/Example_2.cpp",
+				"-o",
+				"${workspaceFolder}/myApp.exe"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "Build Example 3",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-std=c++20", // This flag tells the compiler we're using c++ 20
+				//"-g",
+				"${workspaceFolder}/Example_3.cpp",
+				"${workspaceFolder}/Dog.cpp",
+				"-o",
+				"${workspaceFolder}/myApp.exe"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
