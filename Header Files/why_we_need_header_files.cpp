@@ -8,6 +8,8 @@ int main() {
     // Here we add the two int variables using the int version of Add()
     std::cout << i_first_number << " + " 
         << i_second_number << " = " 
+        // There will be an error on the next line
+        // Because "MathFunctions" isn't defined until line 19.
         << MathFunctions::Add(i_first_number, i_second_number) << std::endl;
     
     return 0;
