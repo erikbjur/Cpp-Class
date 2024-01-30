@@ -13,11 +13,11 @@ int main() {
     std::cout << "It was garbage left over from someone else" << std::endl;
 
     // So now we assign our own numbers to the array
-    numbers[0] = 1; // This is the first number
-    numbers[1] = 2; // This is the second number
-    numbers[2] = 3; // This is the third number
-    numbers[3] = 4; // This is the fourth number
-    numbers[4] = 5; // This is the fifth number
+    numbers[0] = 6; // This is the first number
+    numbers[1] = 7; // This is the second number
+    numbers[2] = 8; // This is the third number
+    numbers[3] = 9; // This is the fourth number
+    numbers[4] = 10; // This is the fifth number
 
     // Now print each number in the array
     std::cout << "Now printing each number in the array..." << std::endl;
