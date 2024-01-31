@@ -32,6 +32,9 @@
 		},
 		{
 			"path": "Classes"
+		},
+		{
+			"path": "Strings"
 		}
 	],
 	"settings": {
