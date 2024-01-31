@@ -7,6 +7,7 @@
 			"command": "clang++",
 			"args": [
 				"-g",
+				"-std=c++11", // This line is required to use newer features like int number {4};
 				"${workspaceFolder}/variables.cpp",
 				"-o",
 				"${workspaceFolder}/variables.exe"
@@ -19,6 +20,7 @@
 			"command": "clang++",
 			"args": [
 				"-g",
+				"-std=c++11",
 				"${workspaceFolder}\\variables.cpp",
 				"-o",
 				"${workspaceFolder}\\variables.exe"

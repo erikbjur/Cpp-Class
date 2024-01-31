@@ -5,15 +5,12 @@ int main() {
     // This variable will be of type int.
     int first_number;
 
-    // Create a variable to store the first number
-    // This variable will be of type int.
-    int second_number;
-
     // Now assign the number 5 to the first number
     first_number = 5;
 
-    // Assign the number 2 to the second number
-    second_number = 2;
+    // Create a variable to store the second number
+    // We will create and initialized this variable in one shot
+    int second_number {2};  // This is faster and more efficient
 
     // Add the two numbers together and store in a new variable called result
     int result = first_number + second_number;
