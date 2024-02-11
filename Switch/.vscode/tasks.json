@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Switch Statements - Build For Mac",
+			"command": "clang++",
+			"args": [
+				"-g",
+				"-std=c++17", // Needed to use int number {0} initialization
+				"${workspaceFolder}/switch.cpp",
+				"-o",
+				"${workspaceFolder}/switch.exe"
+			],
+			"group": "build",
+		},
+		{
+			"type": "process",
+			"label": "Switch Statements - Build For Windows",
+			"command": "clang++",
+			"args": [
+				"-g",
+				"-std=c++17", // Needed to use int number {0} initialization
+				"${workspaceFolder}\\switch.cpp",
+				"-o",
+				"${workspaceFolder}\\switch.exe"
+			],
+			"group": "build",
+		}
+	]
+}

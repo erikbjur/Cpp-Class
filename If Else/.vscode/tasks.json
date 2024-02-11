@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			"type": "cppbuild",
-			"label": "If Else - Build For Mac",
+			"label": "If Else Statements- Build For Mac",
 			"command": "clang++",
 			"args": [
 				"-g",
@@ -15,7 +15,7 @@
 		},
 		{
 			"type": "process",
-			"label": "If Else - Build For Windows",
+			"label": "If Else Statements - Build For Windows",
 			"command": "clang++",
 			"args": [
 				"-g",
