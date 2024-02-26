@@ -38,6 +38,9 @@
 		},
 		{
 			"path": "Switch"
+		},
+		{
+			"path": "References"
 		}
 	],
 	"settings": {
