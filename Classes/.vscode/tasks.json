@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			"type": "cppbuild",
-			"label": "Build Example 1",
+			"label": "Build Example 1 for Mac",
 			"command": "/usr/bin/clang++",
 			"args": [
 				"-std=c++20", // This flag tells the compiler we're using c++ 20
@@ -22,7 +22,7 @@
 		},
 		{
 			"type": "cppbuild",
-			"label": "Build Example 2",
+			"label": "Build Example 2 for Mac",
 			"command": "/usr/bin/clang++",
 			"args": [
 				"-std=c++20", // This flag tells the compiler we're using c++ 20
@@ -41,13 +41,34 @@
 		},
 		{
 			"type": "cppbuild",
-			"label": "Build Example 3",
+			"label": "Build Example 3 for Mac",
 			"command": "/usr/bin/clang++",
 			"args": [
 				"-std=c++20", // This flag tells the compiler we're using c++ 20
 				//"-g",
 				"${workspaceFolder}/Example_3.cpp",
 				"${workspaceFolder}/Dog.cpp",
+				"-o",
+				"${workspaceFolder}/myApp.exe"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "Build Class Inheritance Example for Mac",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-std=c++20", // This flag tells the compiler we're using c++ 20
+				//"-g",
+				"${workspaceFolder}/Class Inheritance.cpp",
+				"${workspaceFolder}/Dog.cpp",
+				"${workspaceFolder}/Labrador.cpp",
 				"-o",
 				"${workspaceFolder}/myApp.exe"
 			],
