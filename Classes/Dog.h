@@ -8,5 +8,6 @@ namespace Animals {
         std::string Name;
 
         void Bark();
+        void BegForFoot();
     };
 }
