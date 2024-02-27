@@ -46,7 +46,7 @@ C:\Users\User_Name\Documents\Homework>cd ..
 To clone this repo we use the command:
 ```git clone``` Followed by the url of the repo.  Here's an example:
 ```
-git clone https://github.com/erikbjur/Cpp-Class.git
+git clone https://github.com/UserName/Cpp-Class.git
 ```
 
 ## Checking for updates using "Fetch"
@@ -54,16 +54,16 @@ You can check if there are updates in a repo by calling the ```git fetch``` comm
 
 Here's an example of some output from calling ```git fetch``` on our repo above:
 ```
-C:\Users\ErikBjur\Documents\Cpp-Class>git fetch
+C:\Users\UserName\Documents\Cpp-Class>git fetch
 remote: Enumerating objects: 7, done.
 remote: Counting objects: 100% (7/7), done.
 remote: Compressing objects: 100% (2/2), done.
 remote: Total 4 (delta 2), reused 4 (delta 2), pack-reused 0
 Unpacking objects: 100% (4/4), 653 bytes | 81.00 KiB/s, done.
-From https://github.com/erikbjur/Cpp-Class
+From https://github.com/UserName/Cpp-Class
    a6d28f2..136e6cf  main       -> origin/main
 
-C:\Users\ErikBjur\Documents\Cpp-Class>
+C:\Users\UserName\Documents\Cpp-Class>
 ```
 This command downloads any changes that have been saved to the repo since we cloned it.
 
@@ -72,14 +72,14 @@ Once we've downloaded the changes, we need to ask git about the status of our re
 ## Checking the status of our repo
 Use the command ```git status```
 ```
-C:\Users\ErikBjur\Documents\Cpp-Class>git status
+C:\Users\UserName\Documents\Cpp-Class>git status
 On branch main
 Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
   (use "git pull" to update your local branch)
 
 nothing to commit, working tree clean
 
-C:\Users\ErikBjur\Documents\Cpp-Class>
+C:\Users\UserName\Documents\Cpp-Class>
 ```
 So reading through the response, it looks like our repo is behind the current one by one commit.
 
@@ -88,13 +88,13 @@ To download any new changes into our repo and make it current we use the command
 
 When we type ```git pull``` we get the following:
 ```
-C:\Users\ErikBjur\Documents\Cpp-Class>git pull
+C:\Users\UserName\Documents\Cpp-Class>git pull
 Updating a6d28f2..136e6cf
 Fast-forward
  Loops/loops.cpp | 44 ++++++++++++++++++++++++++++++++++----------
  1 file changed, 34 insertions(+), 10 deletions(-)
 
-C:\Users\ErikBjur\Documents\Cpp-Class>
+C:\Users\UserName\Documents\Cpp-Class>
 ```
 
 ## Creating your own new repository using VS Code UI.
@@ -113,7 +113,7 @@ To view the status of our repo after we added the files, type ```git status```.
 
 You might see something like this:
 ```
-erikbjur@Eriks-MBP-16 Code % git status
+UserName@ComputerName Code % git status
 On branch main
 
 No commits yet
@@ -124,8 +124,8 @@ Untracked files:
         main.cpp
 
 nothing added to commit but untracked files present (use "git add" to track)
-erikbjur@Eriks-MBP-16 Code % git add .
-erikbjur@Eriks-MBP-16 Code % git status
+UserName@ComputerName Code % git add .
+UserName@ComputerName Code % git status
 On branch main
 
 No commits yet
@@ -141,7 +141,7 @@ It should look something like: ```git commit -m "My commit message goes here.```
 
 The result of your commit should look something like this:
 ```
-erikbjur@Eriks-MBP-16 Code % git commit -m "First commit"
+UserName@ComputerName Code % git commit -m "First commit"
 [main (root-commit) 9a1cafa] First commit
  2 files changed, 14 insertions(+)
  create mode 100755 app.exe
@@ -161,8 +161,8 @@ Once you have a branch you need to check it out.  Do this by typing ```git check
 
 Here's an example:
 ```
-erikbjur@Eriks-MBP-16 Code % git branch new_feature
-erikbjur@Eriks-MBP-16 Code % git checkout new_feature
+UserName@ComputerName Code % git branch new_feature
+UserName@ComputerName Code % git checkout new_feature
 Switched to branch 'new_feature'
 ```
 
