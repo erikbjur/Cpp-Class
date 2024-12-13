@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "14_Data_Structures - Build For Mac",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}/Data_Structures.cpp",
+				"-o",
+				"${workspaceFolder}/Data_Structures.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		},
+		{
+			"type": "process",
+			"label": "14_Data_Structures - Build For Windows",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}\\Data_Structures.cpp",
+				"-o",
+				"${workspaceFolder}\\Data_Structures.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		}
+	]
+}

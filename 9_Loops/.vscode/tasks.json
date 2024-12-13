@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "9_Loops - Build For Mac",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}/loops.cpp",
+				"-o",
+				"${workspaceFolder}/loops.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		},
+		{
+			"type": "process",
+			"label": "9_Loops - Build For Windows",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}\\loops.cpp",
+				"-o",
+				"${workspaceFolder}\\loops.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		}
+	]
+}

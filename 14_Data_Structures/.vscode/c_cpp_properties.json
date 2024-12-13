@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "All",
+            "cppStandard": "c++17",
+            "cStandard": "c17"
+        }
+    ],
+    "version": 4,
+    "enableConfigurationSquiggles": true
+}

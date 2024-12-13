@@ -1,0 +1,57 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "12_Header Files - Build For Mac",
+			"command": "clang++",
+			"args": [
+				"-g",
+				"${workspaceFolder}/simple_functions.cpp",
+				"-o",
+				"${workspaceFolder}/simple_functions.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		},
+		{
+			"type": "process",
+			"label": "12_Header Files - Build For Windows",
+			"command": "clang++",
+			"args": [
+				"-g",
+				"${workspaceFolder}\\simple_functions.cpp",
+				"-o",
+				"${workspaceFolder}\\simple_functions.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		},
+		{
+			"type": "cppbuild",
+			"label": "12_Why We Need Header Files - Build For Mac",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}/why_we_need_header_files.cpp",
+				"-o",
+				"${workspaceFolder}/why_we_need_header_files.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		},
+		{
+			"type": "process",
+			"label": "12_Why We Need Header Files - Build For Windows",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}\\why_we_need_header_files.cpp",
+				"-o",
+				"${workspaceFolder}\\why_we_need_header_files.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "10_Pointers - Build For Mac",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}/pointers.cpp",
+				"-o",
+				"${workspaceFolder}/pointers.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		},
+		{
+			"type": "process",
+			"label": "10_Pointers - Build For Windows",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}\\pointers.cpp",
+				"-o",
+				"${workspaceFolder}\\pointers.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		},
+		{
+			"type": "cppbuild",
+			"label": "10_How To Use Pointers - Build For Mac",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}/HowToUsePointers.cpp",
+				"-o",
+				"${workspaceFolder}/HowToUsePointers.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		},
+		{
+			"type": "process",
+			"label": "10_How To Use Pointers - Build For Windows",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}\\HowToUsePointers.cpp",
+				"-o",
+				"${workspaceFolder}\\HowToUsePointers.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		}
+	]
+}

@@ -1,46 +1,49 @@
 {
 	"folders": [
 		{
-			"path": "First Program"
+			"path": "1_First Program"
 		},
 		{
-			"path": "Variables"
+			"path": "2_Variables"
 		},
 		{
-			"path": "If Else"
+			"path": "3_Strings"
 		},
 		{
-			"path": "Input From User"
+			"path": "4_Input From User"
 		},
 		{
-			"path": "Arrays"
+			"path": "5_If Else"
 		},
 		{
-			"path": "Loops"
+			"path": "6_Switch"
+		},
+		{
+			"path": "7_Functions"
+		},
+		{
+			"path": "8_Arrays"
+		},
+		{
+			"path": "9_Loops"
+		},
+		{
+			"path": "10_Pointers"
+		},
+		{
+			"path": "11_References"
+		},
+		{
+			"path": "12_Header Files"
+		},
+		{
+			"path": "13_Classes"
 		},
 		{
 			"path": "Git Tutorial"
 		},
 		{
-			"path": "Pointers"
-		},
-		{
-			"path": "Functions"
-		},
-		{
-			"path": "Header Files"
-		},
-		{
-			"path": "Classes"
-		},
-		{
-			"path": "Strings"
-		},
-		{
-			"path": "Switch"
-		},
-		{
-			"path": "References"
+			"path": "14_Data_Structures"
 		}
 	],
 	"settings": {
@@ -86,7 +89,20 @@
 			"unordered_map": "cpp",
 			"variant": "cpp",
 			"vector": "cpp",
-			"algorithm": "cpp"
+			"algorithm": "cpp",
+			"stack": "cpp",
+			"unordered_set": "cpp",
+			"__bit_reference": "cpp",
+			"__config": "cpp",
+			"__hash_table": "cpp",
+			"__locale": "cpp",
+			"__node_handle": "cpp",
+			"__split_buffer": "cpp",
+			"__verbose_abort": "cpp",
+			"deque": "cpp",
+			"print": "cpp",
+			"queue": "cpp",
+			"execution": "cpp"
 		}
 	}
 }

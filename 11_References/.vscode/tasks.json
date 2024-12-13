@@ -1,0 +1,60 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "11_References - Build For Mac",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}/References.cpp",
+				"-o",
+				"${workspaceFolder}/References.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		},
+		{
+			"type": "process",
+			"label": "11_References - Build For Windows",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}\\References.cpp",
+				"-o",
+				"${workspaceFolder}\\References.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		},
+
+		{
+			"type": "cppbuild",
+			"label": "11_Passing References - Build For Mac",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}/Passing_References.cpp",
+				"-o",
+				"${workspaceFolder}/Passing_References.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		},
+		{
+			"type": "process",
+			"label": "11_Passing References - Build For Windows",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}\\Passing_References.cpp",
+				"-o",
+				"${workspaceFolder}\\Passing_References.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		}
+
+
+	]
+}

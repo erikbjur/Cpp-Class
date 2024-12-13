@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "3_Strings - Build For Mac",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}/Strings.cpp",
+				"-o",
+				"${workspaceFolder}/Strings.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		},
+		{
+			"type": "process",
+			"label": "3_Strings - Build For Windows",
+			"command": "clang++",
+			"args": [
+				//"-g",
+				"${workspaceFolder}\\Strings.cpp",
+				"-o",
+				"${workspaceFolder}\\Strings.exe",
+				"-std=c++17"
+			],
+			"group": "build",
+		}
+	]
+}
