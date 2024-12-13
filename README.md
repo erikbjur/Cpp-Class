@@ -1,6 +1,7 @@
 # C++ Samples Workspace
 
 This repository contains a collection of C++ sample topics, organized by folders within a Visual Studio Code workspace. Each folder represents a unique topic and includes all necessary resources for building and running the sample code.
+Once you are done reading this README, open the Basics.code-workspace to be able to use all of the pre-built tasks associated with each folder.
 
 ## Features
 - **Platform Support**: Buildable on macOS, Windows, and Linux.
